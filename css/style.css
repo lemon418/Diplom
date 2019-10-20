@@ -1,0 +1,138 @@
+body {
+	font-family: Verdana;
+	font-size: 15px; 
+	color: #fff; 
+	background: #ffff99;
+
+}
+
+.main-style {
+	display: block;
+	height: auto;
+	background: #008080;
+	margin: auto;
+	width: 80%;
+	border-radius: 20px;
+	
+}
+
+/*Only for technical help, not for stilization*/
+.border {
+	border: 1px solid black;
+
+}
+
+ .flex {
+ 	display: flex;
+ 	align-items: center;
+ }
+
+ .flex1 {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	flex-wrap: wrap;
+ 	margin: 0 auto;
+ }
+
+ .flex-end {
+ 	justify-content: flex-end;
+
+ }
+
+ .column {
+ 	flex-direction: column;
+ }
+
+
+.container {
+	/*второй сверху div*/
+	width: 80%;
+	margin: 10px auto; 
+	background: #00e6e6;
+	border-bottom: 3px solid green;
+	border-radius: 20px;
+
+}
+
+
+.h1 {
+	/*My music site*/
+	background: #4d4dff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+h1, h4 {
+	margin: 0px;
+}
+
+.menu {
+	margin: 10px 0px 10px 10px;
+	display: inline-block;
+
+	/*width: 400px;*/
+	height: 250px;
+	background: #666;
+	border-radius: 20px;
+}
+
+.label {
+	float: right;
+}
+
+.list {
+	margin: 10px auto;
+	width: 300px;
+	height: 150px;
+	background: #009999;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.form {
+	/*background: #00b3b3;*/
+	position: absolute;
+	text-align: left;
+}
+
+ .submit {
+ 	margin-top: 10px;
+ }
+
+
+ .content {
+ 	background: #ccc;
+ 	justify-content: center;
+ 	width: 80%;
+ }
+
+ .right {
+ 	text-align: right;
+ }
+
+ .main {
+ 	color: red;
+ 	margin: 0 auto;
+	
+}
+
+.image {
+	min-width: 50px;
+	max-width: 280px;
+	height: auto;
+	margin: 10px;
+	text-align: center;
+}
+.head {
+	text-align: center;
+}
+
+.block {
+	box-shadow: -5px 5px 20px;
+
+}
+
+img {
+	width: 100%;
+
+}
