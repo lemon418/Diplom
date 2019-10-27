@@ -2,56 +2,56 @@ body {
 	font-family: Verdana;
 	font-size: 15px; 
 	color: #fff; 
-	background: #ffff99;
-
+	background: #00394d;
 }
 
 .main-style {
 	display: block;
-	height: auto;
 	background: #008080;
-	margin: auto;
-	width: 80%;
+	padding: 15px;
 	border-radius: 20px;
-	
+	margin: 10px 10px;	
 }
 
 /*Only for technical help, not for stilization*/
 .border {
 	border: 1px solid black;
-
 }
+
+.size-80 {
+	width: 80%;
+	margin: 10px auto;
+}
+
+/*.logo {
+	width: 150px;
+}*/
 
  .flex {
  	display: flex;
- 	align-items: center;
  }
 
  .flex1 {
  	display: flex;
  	justify-content: space-between;
  	flex-wrap: wrap;
- 	margin: 0 auto;
  }
 
  .flex-end {
  	justify-content: flex-end;
-
  }
 
  .column {
  	flex-direction: column;
  }
 
-
 .container {
-	/*второй сверху div*/
 	width: 80%;
 	margin: 10px auto; 
-	background: #00e6e6;
+	background: #00ace6;
 	border-bottom: 3px solid green;
 	border-radius: 20px;
-
+	box-shadow: -5px 5px 15px;
 }
 
 
@@ -69,8 +69,6 @@ h1, h4 {
 .menu {
 	margin: 10px 0px 10px 10px;
 	display: inline-block;
-
-	/*width: 400px;*/
 	height: 250px;
 	background: #666;
 	border-radius: 20px;
@@ -99,7 +97,6 @@ h1, h4 {
  	margin-top: 10px;
  }
 
-
  .content {
  	background: #ccc;
  	justify-content: center;
@@ -113,7 +110,7 @@ h1, h4 {
  .main {
  	color: red;
  	margin: 0 auto;
-	
+ 	position: relative;	
 }
 
 .image {
@@ -123,16 +120,39 @@ h1, h4 {
 	margin: 10px;
 	text-align: center;
 }
+
 .head {
 	text-align: center;
 }
 
 .block {
 	box-shadow: -5px 5px 20px;
-
 }
 
 img {
 	width: 100%;
+}
 
+.range {
+	font: 1.3em bold Arial;
+	color: #e6ffe6;
+}
+
+/*for data page*/
+.data-container {
+	padding: 20px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.data-form {
+	width: 300px;
+	margin: 0 auto;
+}
+.button {
+	text-align: center;
 }

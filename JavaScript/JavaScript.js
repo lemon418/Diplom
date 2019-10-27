@@ -1,0 +1,1 @@
+jQuery('body').append('<a href="https://google.com">перейти в гугл</a>');
